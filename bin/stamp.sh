@@ -11,7 +11,7 @@ set -e
 gas="${SUI_GAS}"
 auth="${SUI_TIMEORACLE_AUTH}"
 pkg="${SUI_TIMEORACLE_PACKAGE}"
-# defaults to system time if flag's not provided
+# defaults to system time if flag --unix-ms is not provided
 unix_ms=""
 
 while test $# -gt 0; do
