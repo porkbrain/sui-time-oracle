@@ -6,9 +6,12 @@
 
 export $(cat .env | xargs)
 
+set -e
+
 gas="${SUI_GAS}"
 auth="${SUI_TIMEORACLE_AUTH}"
 pkg="${SUI_TIMEORACLE_PACKAGE}"
+# defaults to system time if flag's not provided
 unix_ms=""
 
 while test $# -gt 0; do
