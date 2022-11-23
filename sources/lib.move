@@ -1,4 +1,4 @@
-module timeoracle::lib {
+module timeoracle::timeoracle {
     //! Monotonically increasing timestamping provided by an off-chain oracle.
 
     use sui::object::{Self, ID, UID};
