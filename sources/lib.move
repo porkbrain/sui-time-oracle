@@ -16,7 +16,7 @@ module timeoracle::timeoracle {
         index: u64,
         /// Points to the next timestamp object.
         ///
-        /// If this timestamp is the lastest published one, this ID will point
+        /// If this timestamp is the latest published one, this ID will point
         /// to a non-existing object.
         next: ID,
     }
