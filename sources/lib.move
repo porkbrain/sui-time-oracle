@@ -42,6 +42,10 @@ module timeoracle::timeoracle {
         t.index
     }
 
+    public fun next_object(t: &Timestamp): ID {
+        t.next
+    }
+
     // === For maintainer ===
 
     fun init(ctx: &mut TxContext) {
