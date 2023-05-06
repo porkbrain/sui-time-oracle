@@ -1,3 +1,6 @@
+**This won't work anymore due to Sui updates.**
+
+
 # Time oracle
 
 As of now, the time stamping granularity on Sui is on the order of epochs,
